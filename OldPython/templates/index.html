@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Explorers</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Neural Explorers</h1>
+        <p>Exploring the Future of AI</p>
+        <button onclick="showAlert()">Get Started</button>
+    </header>
+    <section>
+        <h2>About Neural Explorers</h2>
+        <h3>Current Version: Python 3.11</h3>
+        <p>Neural Explorers is dedicated to advancing the field of artificial intelligence through cutting-edge research and innovative solutions. Our mission is to explore the limitless possibilities of AI and bring them to life.</p>
+        <img src="{{ url_for('static', filename='neural_explorers.jpg') }}" alt="Neural Explorers">
+    </section>
+    <footer>
+        <p>&copy; 2023 Neural Explorers. All rights reserved.</p>
+    </footer>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
